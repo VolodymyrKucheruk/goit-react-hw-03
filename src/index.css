@@ -1,0 +1,48 @@
+:root {
+  font-family: "Times New Roman", Times, serif, Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+#root{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100svw;
+  height: 100svh;
+  background-image: url("./assets/antique-cafe-bg-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
