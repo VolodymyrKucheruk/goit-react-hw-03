@@ -22,7 +22,7 @@
   font-weight: bold;
   font-weight: 1000;
   color: #fff;
-  text-shadow: 0.3px 0.2px 0 #fff;
+ 
 }
 .numberItem {
   display: flex;
@@ -40,22 +40,18 @@
   width: 90px;
   height: 48px;
   font-size: 0.8em;
-  border: 0;
+  border: 2px solid black;
   outline: 0;
   border-radius: 15px;
   color: #178a0c;
   font-weight: bold;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
   transition: all 0.01s ease-in-out;
   cursor: pointer;
   margin: 0;
-  background-color: #ebecf0;
-  text-shadow: 0.3px 0.2px 0 #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color:#212020 ;
+
 }
 .btn:hover {
   color: #ae1100;
