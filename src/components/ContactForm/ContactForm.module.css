@@ -18,7 +18,7 @@
   margin-bottom: 10px;
   font-size: 1.5em;
   color: #465b4b;
-  text-shadow: 2px 1px 1px rgb(255, 255, 255);
+ font-weight: bolder;
 }
 .input {
   border: 0;
@@ -26,8 +26,8 @@
   border-radius: 320px;
   padding: 16px;
   margin-bottom: 5px;
-  background-color: #ebecf0;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  background-color: #fbedc3;
+  box-shadow: inset 2px 2px 5px #8d8363, inset -5px -5px 10px #fff;
   width: 100%;
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
@@ -40,7 +40,7 @@
 .error {
   margin-left: 5px;
   color: #ae1100;
-  text-shadow: 1px 1px 0 #fff;
+ 
 }
 .btn {
   margin-bottom: 120px;
@@ -50,15 +50,15 @@
   color: #ae1100;
   font-weight: bold;
   font-size: 1.4em;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgba(52, 53, 54, 0.521) 3px 3px 6px 0px inset,
+    rgba(128, 122, 122, 0.313) -3px -3px 6px 1px inset;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
   font-weight: 600;
   border-radius: 320px;
   padding: 16px;
-  background-color: #ebecf0;
-  text-shadow: 1px 1px 0 #fff;
+  background-color: #eba147f7;
+  
 }
 .btn:hover {
   color: #178a0c;
